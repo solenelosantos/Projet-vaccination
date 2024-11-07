@@ -1,7 +1,17 @@
-1- Créer + partager un notebook
-2- Modifier lignes 3070->3541 la colonne qui ne va pas
+PREPARATION:
+  1- Créer + partager un notebook
+  2- Modifier lignes 3070->3541 la colonne qui ne va pas
 PRISE EN MAIN DU DATASET:
-3- Faire un describe()/info()
-4- Récupérer le nom des colonnes
-5- Tracer plot()/boxplot()/hist()
+  3- Faire un describe()/info()
+  4- Récupérer le nom des colonnes
+  5- Tracer plot()/boxplot()/hist()
 ETUDE DU DATASET:
+  6- Faire une étude grâce aux groupby:
+      * group by pathologie
+      * group by localisation
+      * group by taux de vaccination
+    --> calculer les moyennes, les écarts-types entre autres
+  7- Faire des tracés :
+      * pathologies en fonction du département
+      * vaccination en fonction du département
+      * vaccination en fonction des pathologies
