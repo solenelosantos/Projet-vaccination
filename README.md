@@ -36,9 +36,9 @@ Nous avons dans un second temps réalisé plusieurs analyses des données.
 Ce dataset contient un ensemble de données relatives à la vaccination de différentes pathologies au sein des départements français.
 Voici une analyse des colonnes présentes dans ce dataset:
 
-date : La date à laquelle les données ont été collectées ou mises à jour. Cela pourrait être important pour analyser les tendances dans le temps.
-regroupement_pathologie : Un regroupement des pathologies => classer les pathologies en catégories plus larges (maladies respiratoires, cardiovasculaires, etc.).
-pathologie : Le nom spécifique de la pathologie pour laquelle les données sont collectées (par exemple, diabète, hypertension, etc.).
+date : La date à laquelle les données ont été collectées ou mises à jour. Cela pourrait être important pour analyser les tendances dans le temps.\n
+regroupement_pathologie : Un regroupement des pathologies => classer les pathologies en catégories plus larges (maladies respiratoires, cardiovasculaires, etc.).\n
+pathologie : Le nom spécifique de la pathologie pour laquelle les données sont collectées (par exemple, diabète, hypertension, etc.).\n
 region_residence : La région où les personnes sont domiciliées. Cela peut être utilisé pour des analyses géographiques.
 libelle_region : Le nom de la région (ex : Île-de-France, Provence-Alpes-Côte d'Azur). 
 departement_residence : Le département de résidence des personnes concernées. Cela permet d’affiner l’analyse géographique à un niveau administratif plus précis.
