@@ -3,6 +3,8 @@ Analyse exploratoire de données, Eugénie Porre et Solène Losantos
 
 <!-- #region -->
 
+Lien vers la source du dataset : https://www.data.gouv.fr/fr/datasets/donnees-vaccination-par-pathologie-et-departement-region/
+
 # Etude réalisée :
 
 Dans un premier temps, nous avons fait le point sur le fichier et nous l'avons nettoyé afin de réaliser des analyses correctes.
