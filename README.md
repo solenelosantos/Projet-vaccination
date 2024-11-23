@@ -2,10 +2,39 @@
 Analyse exploratoire de données, Eugénie Porre et Solène Losantos
 
 <!-- #region -->
-Ce dataset contient un ensemble de données relatives à la vaccination de différentes pathologies au sein des départements français.
-Voici une analyse des colonnes présentes dans ce dataset:
+
+# Etude réalisée :
+
+Dans un premier temps, nous avons fait le point sur le fichier et nous l'avons nettoyé afin de réaliser des analyses correctes.
+Nous avons dans un second temps réalisé plusieurs analyses des données.
+
+## Partie 1 : Nettoyage du dataset
+
+- Etude des valeurs manquantes
+- Nettoyage d'une colonne à cause d'une répétition
+
+## Partie 2 : Etude des pathologies
+
+- Etude et tracé de la représentation des pathologies à l'échelle française
+- Etude et tracé de la représentation des pathologies par région
+- Etude et tracé de la représentation des pathologies par département
+- Tracé du nombre d'habitant par département, comparaison avec la répartition dans le dataset
+- Etude et tracé de la population malade
+- Etude et tracé de la population atteinte par un cancer
+
+## Partie 3 : Etude de la vaccination
+
+- Rapide comparaison de la distribution du taux de vaccination pour deux pathologies afin de faire l'état des lieux de la couverture vaccinale.
+- Tracé du taux moyen de vaccination par pathologie => La dépendance aux opioïdes présente un taux inférieur aux autres.
+- Tracé du taux moyen de vaccination par région => Les taux de vaccination plus faibles sont atteints au sein des départements d'Outre-mer.
+- Tracé du taux moyen de vaccination par département (d'abord avec Outre-mer puis après seulement sur le territoire métropolitain) => mise en évidence d'un seuil à 90% et découverte que moins de vaccination dans le sud de la France et dans régions montagneuses.
+- Scatterplot pour vérifier si la densité de population a une influence sur la couverture vaccinale=> cela ne semble pas être le cas.
+- Comparaison du taux de vaccination initial (taux_1_inj_pathologie) par rapport au taux de vaccination complet (taux_termine_pathologie) afin de savoir si la série complète de dose est toujours respectée =>A nouveau les DOM sont plus fragiles, la Guyane possédant le taux de complétude de vaccin le plus faible.
 
 # ANALYSE DES COLONNES:
+
+Ce dataset contient un ensemble de données relatives à la vaccination de différentes pathologies au sein des départements français.
+Voici une analyse des colonnes présentes dans ce dataset:
 
 date : La date à laquelle les données ont été collectées ou mises à jour. Cela pourrait être important pour analyser les tendances dans le temps.
 
@@ -44,32 +73,5 @@ effectif_rappel_parmi_eli_patho : Le pourcentage de personnes ayant reçu une in
 taux_rappel_pathologie : Le pourcentage de personnes ayant reçu un rappel pour chaque pathologie.
 
 taux_rappel_eligible_pathologie : Le taux de rappel parmi les personnes éligibles à ce rappel => indicateur d'adhésion au rappel parmi la population ciblée.
-
-# Etude réalisée :
-
-Dans un premier temps, nous avons fait le point sur le fichier et nous l'avons nettoyé afin de réaliser des analyses correctes.
-Nous avons dans un second temps réalisé plusieurs analyses des données.
-
-## Partie 1 :
-
-## Partie 2 :
-
-- Rapide comparaison de la distribution du taux de vaccination pour deux pathologies afin de faire l'état des lieux de la couverture vaccinale.
-  
-- Tracé du taux moyen de vaccination par pathologie => La dépendance aux opioïdes présente un taux inférieur aux autres.
-
-  
-- Tracé du taux moyen de vaccination par région => Les taux de vaccination plus faibles sont atteints au sein des départements d'Outre-mer.
-
-  
-- Tracé du taux moyen de vaccination par département (d'abord avec Outre-mer puis après seulement sur le territoire métropolitain) => mise en évidence d'un seuil à 90% et découverte que moins de vaccination dans le sud de la France et dans régions montagneuses.
-
-  
-- Scatterplot pour vérifier si la densité de population a une influence sur la couverture vaccinale=> cela ne semble pas être le cas.
-
-  
-- Comparaison du taux de vaccination initial (taux_1_inj_pathologie) par rapport au taux de vaccination complet (taux_termine_pathologie) afin de savoir si la série complète de dose est toujours respectée =>A nouveau les DOM sont plus fragiles, la Guyane possédant le taux de complétude de vaccin le plus faible.
-
-
 
 <!-- #endregion -->
